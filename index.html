@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cookaroo – The Intelligent Global Cookbook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ─── NAV ─── -->
+<nav id="mainNav">
+  <div class="nav-logo">Cook<span>aroo</span></div>
+  <div class="nav-links">
+    <a href="#" class="nav-link active" data-page="home">Home</a>
+    <a href="#" class="nav-link" data-page="recipes">Recipes</a>
+    <a href="#" class="nav-link" data-page="masterclasses">Masterclasses</a>
+    <a href="#" class="nav-link" data-page="pantry">Pantry & Planner</a>
+    <a href="#" class="nav-link" data-page="pricing">Pricing</a>
+  </div>
+  <button class="nav-cta nav-link" data-page="pricing">Get Premium ✦</button>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#" class="nav-link" data-page="home">Home</a>
+  <a href="#" class="nav-link" data-page="recipes">Recipes</a>
+  <a href="#" class="nav-link" data-page="masterclasses">Masterclasses</a>
+  <a href="#" class="nav-link" data-page="pantry">Pantry & Planner</a>
+  <a href="#" class="nav-link" data-page="pricing">Pricing</a>
+  <a href="#" class="nav-cta nav-link" data-page="pricing">Get Premium ✦</a>
+</div>
+
+<!-- ─── FLOATING CTA ─── -->
+<div class="floating-pill nav-link" data-page="pricing">📱 Download App</div>
+
+<!-- ═══════════════════════════
+     HOME PAGE
+═══════════════════════════ -->
+<div id="page-home" class="page active">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-grid container">
+      <div>
+        <div class="hero-eyebrow">✦ Intelligent Global Cookbook</div>
+        <h1 class="hero-title display">
+          Stop searching.<br>
+          <span class="line2">Start cooking.</span><br>
+          <span class="line3">Cook with the world.</span>
+        </h1>
+        <p class="hero-body">From Filipino Noche Buena to 15-Minute Global Dinners — over 3,000 curated recipes with voice-command Cook Mode, AI meal planning, and real-time pantry matching.</p>
+        <div class="hero-actions">
+          <button class="btn-primary nav-link" data-page="recipes">Explore Recipes →</button>
+          <button class="btn-outline nav-link" data-page="pricing">View Plans</button>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-item">
+            <div class="number display">3,200+</div>
+            <div class="label">Global Recipes</div>
+          </div>
+          <div class="hero-stat-item">
+            <div class="number display">$1.6B</div>
+            <div class="label">Market Trend</div>
+          </div>
+          <div class="hero-stat-item">
+            <div class="number display">96</div>
+            <div class="label">Countries</div>
+          </div>
+        </div>
+      </div>
+      <!-- Phone Mockup -->
+      <div class="phone-wrap">
+        <div class="phone-glow"></div>
+        <div class="phone">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="cook-mode-preview">
+              <div style="font-size:.65rem;color:var(--text3);font-family:'DM Mono',monospace;letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem">COOK MODE • STEP 2 / 6</div>
+              <div class="cook-mode-step">Heat <em>2 tbsp</em> olive oil in a heavy skillet over <em>medium-high</em> heat until shimmering.</div>
+              <div class="cook-mode-progress"><div class="cook-mode-bar"></div></div>
+              <div class="cook-mode-controls">
+                <button class="cook-btn cook-btn-prev">← Prev</button>
+                <button class="cook-btn cook-btn-next">Next →</button>
+              </div>
+            </div>
+          </div>
+          <div style="position:relative;height:60px;display:flex;align-items:center;justify-content:center;">
+            <div class="pulse-ring"></div>
+            <div class="phone-mic">🎤</div>
+          </div>
+          <div class="cook-mode-badge">COOK MODE</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- Value Props -->
+  <section class="value-props">
+    <div class="container">
+      <div style="text-align:center;margin-bottom:3rem">
+        <div class="section-label">Why Cookaroo</div>
+        <h2 class="section-title display">Everything you need.<br>Nothing you don't.</h2>
+      </div>
+      <div class="grid-3">
+        <div class="vp-card">
+          <div class="vp-icon vp-icon-orange">🧠</div>
+          <h3>Decision Fatigue? Solved.</h3>
+          <p>Our AI Meal Planner understands your pantry, dietary needs, and preferences. No more staring at the fridge wondering what to cook.</p>
+        </div>
+        <div class="vp-card">
+          <div class="vp-icon vp-icon-green">🌍</div>
+          <h3>Exclusively International</h3>
+          <p>From Japanese ramen to Moroccan tagine to classic Filipino adobo. Authentic recipes from 96 countries, curated by local chefs.</p>
+        </div>
+        <div class="vp-card">
+          <div class="vp-icon vp-icon-orange">💎</div>
+          <h3>Extreme Value at Every Tier</h3>
+          <p>Free access to 500+ high-quality recipes. Premium unlocks the full $1.6B potential — AI planning, voice Cook Mode, offline access, and Masterclasses.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials / Bundles -->
+  <section class="testimonials">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start">
+        <div>
+          <div class="section-label">Curated Collections</div>
+          <h2 class="section-title display">Recipe Bundles That Tell a Story</h2>
+          <p class="section-subtitle">Hand-picked collections that go beyond single recipes — complete experiences for every occasion.</p>
+          <div class="bundle-tabs" style="margin-top:2rem">
+            <button class="bundle-tab active" data-bundle="0">🎄 Noche Buena</button>
+            <button class="bundle-tab" data-bundle="1">⚡ 15-Min Global</button>
+            <button class="bundle-tab" data-bundle="2">🌱 Plant-Based Week</button>
+            <button class="bundle-tab" data-bundle="3">❤️ Date Night</button>
+          </div>
+        </div>
+        <div>
+          <div class="testimonial-card active" data-bundle-card="0">
+            <div class="testimonial-quote display">"The Noche Buena bundle had my entire family speechless. Every dish from lechon to bibingka was perfectly detailed. This is the Filipino cookbook app we've been waiting for."</div>
+            <div class="testimonial-author">
+              <div class="author-avatar">MA</div>
+              <div class="author-info">
+                <div class="name">Maria Aguinaldo</div>
+                <div class="role">Home cook, Quezon City</div>
+              </div>
+              <div style="margin-left:auto;display:flex;gap:2px;color:var(--orange)">★★★★★</div>
+            </div>
+          </div>
+          <div class="testimonial-card" data-bundle-card="1">
+            <div class="testimonial-quote display">"I used to spend 45 minutes deciding what to cook. Now? Cook Mode walks me through a Thai stir-fry in exactly 12 minutes. Game changer."</div>
+            <div class="testimonial-author">
+              <div class="author-avatar">JR</div>
+              <div class="author-info">
+                <div class="name">James Reyes</div>
+                <div class="role">Busy professional, Makati</div>
+              </div>
+              <div style="margin-left:auto;display:flex;gap:2px;color:var(--orange)">★★★★★</div>
+            </div>
+          </div>
+          <div class="testimonial-card" data-bundle-card="2">
+            <div class="testimonial-quote display">"My plant-based week bundle turned my whole family into believers. Even my meat-loving husband asked for seconds every single night."</div>
+            <div class="testimonial-author">
+              <div class="author-avatar">SC</div>
+              <div class="author-info">
+                <div class="name">Sarah Chen</div>
+                <div class="role">Nutritionist, BGC</div>
+              </div>
+              <div style="margin-left:auto;display:flex;gap:2px;color:var(--orange)">★★★★★</div>
+            </div>
+          </div>
+          <div class="testimonial-card" data-bundle-card="3">
+            <div class="testimonial-quote display">"Date Night collection saved my relationship. A restaurant-quality French dinner at home — she thought I'd taken a cooking class. I just had Cookaroo."</div>
+            <div class="testimonial-author">
+              <div class="author-avatar">DL</div>
+              <div class="author-info">
+                <div class="name">David Lim</div>
+                <div class="role">Subscriber since 2024</div>
+              </div>
+              <div style="margin-left:auto;display:flex;gap:2px;color:var(--orange)">★★★★★</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section style="padding:5rem 5%;background:linear-gradient(135deg,rgba(244,162,97,0.08),rgba(42,157,143,0.05));border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+    <div class="container" style="text-align:center">
+      <div class="section-label">Limited Time</div>
+      <h2 class="section-title display">Your First Month is Free.</h2>
+      <p class="section-subtitle" style="margin:0 auto 2rem">No credit card required. Access 3,200+ recipes, AI meal planning, and voice-command Cook Mode. Cancel anytime.</p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
+        <button class="btn-primary nav-link" data-page="pricing">Start Free Trial →</button>
+        <button class="btn-outline nav-link" data-page="recipes">Browse Recipes</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ═══════════════════════════
+     RECIPES PAGE
+═══════════════════════════ -->
+<div id="page-recipes" class="page">
+  <div class="recipes-header">
+    <div class="container">
+      <div class="section-label">Recipe Library</div>
+      <h1 class="section-title display">3,200+ Dishes. <span style="color:var(--orange)">96 Countries.</span></h1>
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" class="search-input" id="recipeSearch" placeholder="Search recipes, ingredients, cuisines...">
+      </div>
+      <div class="filter-row">
+        <button class="filter-chip active" data-filter="all">All Recipes</button>
+        <button class="filter-chip green" data-filter="vegan">🌱 Vegan</button>
+        <button class="filter-chip green" data-filter="lowcarb">Low-Carb</button>
+        <button class="filter-chip" data-filter="filipino">🇵🇭 Filipino</button>
+        <button class="filter-chip" data-filter="japanese">🇯🇵 Japanese</button>
+        <button class="filter-chip" data-filter="italian">🇮🇹 Italian</button>
+        <button class="filter-chip" data-filter="15min">⚡ Under 15 Min</button>
+        <button class="filter-chip" data-filter="international">🌍 International</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="recipes-grid container" id="recipesContainer">
+    <!-- Populated by JS -->
+  </div>
+</div>
+
+<!-- Recipe Modal -->
+<div class="recipe-modal" id="recipeModal">
+  <div class="recipe-modal-inner">
+    <div class="recipe-modal-hero" id="modalHero">
+      <span id="modalEmoji" style="font-size:5rem"></span>
+      <button class="recipe-modal-close" onclick="closeRecipeModal()">✕</button>
+    </div>
+    <div class="recipe-modal-body">
+      <div id="modalTags" class="recipe-modal-tags"></div>
+      <h2 class="recipe-modal-name display" id="modalName"></h2>
+      <div style="display:flex;align-items:center;gap:2rem;color:var(--text3);font-size:.85rem">
+        <span>⏱ <span id="modalTime"></span></span>
+        <span>👤 <span id="modalDiff"></span></span>
+        <span>🌍 <span id="modalOrigin"></span></span>
+      </div>
+      <!-- Servings -->
+      <div style="display:flex;align-items:center;justify-content:space-between;margin:1.5rem 0 1rem">
+        <div class="ingredients-title" style="margin:0">Ingredients</div>
+        <div class="servings-ctrl" style="margin:0">
+          <button class="serving-btn" id="servingMinus">−</button>
+          <span class="serving-count" id="servingCount">4</span>
+          <button class="serving-btn" id="servingPlus">+</button>
+          <span style="font-size:.85rem;color:var(--text3)">servings</span>
+        </div>
+      </div>
+      <div id="modalIngredients"></div>
+      <div class="steps-title">Instructions</div>
+      <div id="modalSteps"></div>
+      <button class="cook-mode-trigger" onclick="openCookMode()">🍳 Start Cook Mode</button>
+    </div>
+  </div>
+</div>
+
+<!-- Cook Mode Overlay -->
+<div class="cook-mode-overlay" id="cookModeOverlay">
+  <div class="cook-mode-progress-bar">
+    <div class="cook-mode-progress-fill" id="cookProgressFill" style="width:0%"></div>
+  </div>
+  <div class="cook-mode-header">
+    <div class="cook-mode-title" id="cookModeTitle">COOK MODE</div>
+    <button class="cook-mode-close" onclick="closeCookMode()">✕</button>
+  </div>
+  <div class="cook-mode-body">
+    <div class="cook-mode-step-num" id="cookStepNum">STEP 1 OF 5</div>
+    <div class="cook-mode-instruction display" id="cookInstruction"></div>
+    <div class="cook-mode-nav">
+      <button class="cook-nav-btn cook-nav-prev" id="cookPrev" onclick="cookNav(-1)">← Prev</button>
+      <button class="cook-nav-btn cook-nav-next" id="cookNext" onclick="cookNav(1)">Next →</button>
+    </div>
+    <div class="cook-mode-mic" title="Voice command">🎤</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════
+     MASTERCLASSES PAGE
+═══════════════════════════ -->
+<div id="page-masterclasses" class="page">
+  <div class="masterclasses-hero">
+    <div class="container">
+      <div class="section-label">Premium Learning</div>
+      <h1 class="section-title display">Masterclasses from <span style="color:var(--green)">World Chefs</span></h1>
+      <p class="section-subtitle">Step-by-step video lessons from professionals. Knife skills to complex techniques — learn at your own pace.</p>
+      <div style="margin-top:1.5rem;display:flex;gap:.75rem;flex-wrap:wrap">
+        <span class="tag tag-orange">🎬 48 Videos</span>
+        <span class="tag tag-green">⭐ Chef-Verified</span>
+        <span class="tag tag-gray">🔒 Premium Unlocks All</span>
+      </div>
+    </div>
+  </div>
+  <div class="classes-grid container">
+    <div class="grid-4" id="classesGrid"></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════
+     PANTRY PAGE
+═══════════════════════════ -->
+<div id="page-pantry" class="page">
+  <div style="padding:4rem 5% 2rem">
+    <div class="container">
+      <div class="section-label">Smart Pantry</div>
+      <h1 class="section-title display">What's in your kitchen?</h1>
+      <p class="section-subtitle">Add ingredients you have and we'll show you exactly what you can cook — then build your grocery list for everything else.</p>
+    </div>
+  </div>
+  <div class="pantry-layout container">
+    <!-- Input Panel -->
+    <div>
+      <div class="pantry-panel">
+        <h2 class="display">My Pantry</h2>
+        <div class="pantry-input-wrap">
+          <span class="pantry-icon">🥦</span>
+          <input type="text" class="pantry-input" id="pantryInput" placeholder="e.g. chicken, garlic, tomatoes..." onkeydown="if(event.key==='Enter')addIngredient()">
+        </div>
+        <button class="pantry-add-btn" onclick="addIngredient()">+ Add to Pantry</button>
+        <div class="ingredient-chips" id="pantryChips">
+          <div class="ingredient-chip">🍗 Chicken <button onclick="removeChip(this)">✕</button></div>
+          <div class="ingredient-chip">🧅 Onion <button onclick="removeChip(this)">✕</button></div>
+          <div class="ingredient-chip">🍅 Tomatoes <button onclick="removeChip(this)">✕</button></div>
+          <div class="ingredient-chip">🧄 Garlic <button onclick="removeChip(this)">✕</button></div>
+        </div>
+      </div>
+
+      <div class="pantry-panel" style="margin-top:1.5rem">
+        <h2 class="display">Grocery List</h2>
+        <p style="color:var(--text3);font-size:.85rem;margin-bottom:1.25rem">Missing ingredients to complete your top matches</p>
+        <div class="grocery-list" id="groceryList">
+          <div class="grocery-item">
+            <span class="grocery-item-name">Coconut Milk (400ml)</span>
+            <div class="grocery-btn-row">
+              <button class="grocery-api-btn grab-btn">Grab</button>
+              <button class="grocery-api-btn metro-btn">MetroMart</button>
+            </div>
+          </div>
+          <div class="grocery-item">
+            <span class="grocery-item-name">Lemongrass (2 stalks)</span>
+            <div class="grocery-btn-row">
+              <button class="grocery-api-btn grab-btn">Grab</button>
+              <button class="grocery-api-btn metro-btn">MetroMart</button>
+            </div>
+          </div>
+          <div class="grocery-item">
+            <span class="grocery-item-name">Fish Sauce (30ml)</span>
+            <div class="grocery-btn-row">
+              <button class="grocery-api-btn grab-btn">Grab</button>
+              <button class="grocery-api-btn metro-btn">MetroMart</button>
+            </div>
+          </div>
+          <div class="grocery-item">
+            <span class="grocery-item-name">Bay Leaves (3 pcs)</span>
+            <div class="grocery-btn-row">
+              <button class="grocery-api-btn grab-btn">Grab</button>
+              <button class="grocery-api-btn metro-btn">MetroMart</button>
+            </div>
+          </div>
+        </div>
+        <button style="width:100%;margin-top:1.25rem;padding:.85rem;border-radius:12px;background:var(--surface2);color:var(--text2);font-size:.85rem;font-family:inherit;cursor:pointer;border:1px solid var(--border)">📋 Export Full List</button>
+      </div>
+    </div>
+
+    <!-- Results Panel -->
+    <div>
+      <div class="pantry-panel">
+        <h2 class="display">Recipes You Can Make Now</h2>
+        <p style="color:var(--text3);font-size:.85rem;margin-bottom:1.5rem">Based on <span id="ingredientCount" style="color:var(--orange);font-weight:700">4</span> pantry items</p>
+        <div id="pantryMatches">
+          <div class="pantry-match-card">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=80&h=60&fit=crop&auto=format" alt="Filipino Chicken Adobo" class="pantry-match-emoji">
+            <div class="pantry-match-info">
+              <div class="pantry-match-name">Filipino Chicken Adobo</div>
+              <div class="pantry-match-meta">
+                <span>⏱ 45 min</span><span>🇵🇭 Filipino</span>
+              </div>
+            </div>
+            <span class="match-pct">95% match</span>
+          </div>
+          <div class="pantry-match-card">
+            <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?w=80&h=60&fit=crop&auto=format" alt="Tomato Chicken Stew" class="pantry-match-emoji">
+            <div class="pantry-match-info">
+              <div class="pantry-match-name">Tomato Chicken Stew</div>
+              <div class="pantry-match-meta">
+                <span>⏱ 35 min</span><span>🌍 Mediterranean</span>
+              </div>
+            </div>
+            <span class="match-pct">88% match</span>
+          </div>
+          <div class="pantry-match-card">
+            <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?w=80&h=60&fit=crop&auto=format" alt="Garlic Chicken Stir-Fry" class="pantry-match-emoji">
+            <div class="pantry-match-info">
+              <div class="pantry-match-name">Garlic Chicken Stir-Fry</div>
+              <div class="pantry-match-meta">
+                <span>⏱ 15 min</span><span>🇯🇵 Asian</span>
+              </div>
+            </div>
+            <span class="match-pct">82% match</span>
+          </div>
+          <div class="pantry-match-card">
+            <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=80&h=60&fit=crop&auto=format" alt="Chicken Tinola" class="pantry-match-emoji">
+            <div class="pantry-match-info">
+              <div class="pantry-match-name">Chicken Tinola</div>
+              <div class="pantry-match-meta">
+                <span>⏱ 50 min</span><span>🇵🇭 Filipino</span>
+              </div>
+            </div>
+            <span class="match-pct">78% match</span>
+          </div>
+          <div class="pantry-match-card">
+            <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=80&h=60&fit=crop&auto=format" alt="Simple Chicken Curry" class="pantry-match-emoji">
+            <div class="pantry-match-info">
+              <div class="pantry-match-name">Simple Chicken Curry</div>
+              <div class="pantry-match-meta">
+                <span>⏱ 40 min</span><span>🇮🇳 Indian</span>
+              </div>
+            </div>
+            <span class="match-pct">70% match</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════
+     PRICING PAGE
+═══════════════════════════ -->
+<div id="page-pricing" class="page">
+  <div class="pricing-hero">
+    <div class="container">
+      <div class="section-label">Simple Pricing</div>
+      <h1 class="section-title display">Great cooking<br><span style="color:var(--orange)">shouldn't cost the world.</span></h1>
+      <p class="section-subtitle" style="margin:0 auto">Start free. Upgrade when you're ready. No hidden fees, no contracts.</p>
+      <div class="pricing-toggle">
+        <span class="pricing-toggle-label">Monthly</span>
+        <div class="toggle-switch" id="billingToggle" onclick="toggleBilling()">
+          <div class="toggle-knob"></div>
+        </div>
+        <span class="pricing-toggle-label">Annual</span>
+        <span class="save-badge">Save 40%</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="pricing-grid">
+    <!-- Free -->
+    <div class="pricing-card">
+      <div class="pricing-plan">Free Forever</div>
+      <div class="pricing-name display">The Explorer</div>
+      <div class="pricing-price">
+        <span class="currency">$</span>
+        <span class="amount">0</span>
+        <span class="period">/month</span>
+      </div>
+      <ul class="pricing-features">
+        <li><span class="feat-check yes">✓</span>500+ high-quality recipes</li>
+        <li><span class="feat-check yes">✓</span>Basic search & category filters</li>
+        <li><span class="feat-check yes">✓</span>Servings calculator</li>
+        <li><span class="feat-check yes">✓</span>3 Pantry ingredient matches/day</li>
+        <li><span class="feat-check yes">✓</span>Community ratings & reviews</li>
+        <li><span class="feat-check no">○</span><span style="color:var(--text3)">AI Meal Planning</span></li>
+        <li><span class="feat-check no">○</span><span style="color:var(--text3)">Voice-Command Cook Mode</span></li>
+        <li><span class="feat-check no">○</span><span style="color:var(--text3)">Offline Access</span></li>
+        <li><span class="feat-check no">○</span><span style="color:var(--text3)">Masterclasses (48 videos)</span></li>
+        <li><span class="feat-check no">○</span><span style="color:var(--text3)">Grab & MetroMart Integration</span></li>
+      </ul>
+      <button class="pricing-cta free">Start for Free</button>
+    </div>
+
+    <!-- Premium -->
+    <div class="pricing-card featured">
+      <div class="pricing-plan">Premium</div>
+      <div class="pricing-name display">The Global Gourmet</div>
+      <div class="pricing-price">
+        <span class="currency">$</span>
+        <span class="amount" id="premiumPrice">7</span>
+        <span class="period" id="premiumPeriod">/month</span>
+      </div>
+      <ul class="pricing-features">
+        <li><span class="feat-check yes">✓</span>Everything in Explorer</li>
+        <li><span class="feat-check yes">✓</span>3,200+ exclusive global recipes</li>
+        <li><span class="feat-check yes">✓</span><strong>AI Meal Planning</strong> — weekly plans, auto-adjusted</li>
+        <li><span class="feat-check yes">✓</span><strong>Voice-Command Cook Mode</strong> — hands-free, large font</li>
+        <li><span class="feat-check yes">✓</span><strong>Offline Access</strong> — cook without WiFi</li>
+        <li><span class="feat-check yes">✓</span><strong>All 48 Masterclass Videos</strong></li>
+        <li><span class="feat-check yes">✓</span>Grab & MetroMart Cart Integration</li>
+        <li><span class="feat-check yes">✓</span>Unlimited pantry matching</li>
+        <li><span class="feat-check yes">✓</span>Priority customer support</li>
+        <li><span class="feat-check yes">✓</span>Early access to new features</li>
+      </ul>
+      <button class="pricing-cta paid">Start Free Trial →</button>
+      <p style="text-align:center;font-size:.78rem;color:var(--text3);margin-top:.75rem">30-day free trial. No credit card required.</p>
+    </div>
+  </div>
+
+  <!-- FAQ Teaser -->
+  <div style="padding:0 5% 5rem;max-width:900px;margin:0 auto">
+    <h3 class="display" style="font-size:1.75rem;font-weight:900;margin-bottom:2rem;text-align:center">Common Questions</h3>
+    <div class="grid-2">
+      <div style="background:var(--bg3);border:1px solid var(--border);border-radius:16px;padding:1.5rem">
+        <h4 style="font-weight:700;margin-bottom:.5rem">Can I cancel anytime?</h4>
+        <p style="color:var(--text2);font-size:.9rem">Yes — cancel with one tap, no questions asked. Your access continues until the end of your billing period.</p>
+      </div>
+      <div style="background:var(--bg3);border:1px solid var(--border);border-radius:16px;padding:1.5rem">
+        <h4 style="font-weight:700;margin-bottom:.5rem">Does offline mode sync?</h4>
+        <p style="color:var(--text2);font-size:.9rem">Yes. Save any recipe to offline and it syncs across all your devices automatically when connected.</p>
+      </div>
+      <div style="background:var(--bg3);border:1px solid var(--border);border-radius:16px;padding:1.5rem">
+        <h4 style="font-weight:700;margin-bottom:.5rem">How does Cook Mode work?</h4>
+        <p style="color:var(--text2);font-size:.9rem">Cook Mode switches to a large-font, high-contrast UI. Say "next step" or tap — optimized for one hand with messy kitchen fingers.</p>
+      </div>
+      <div style="background:var(--bg3);border:1px solid var(--border);border-radius:16px;padding:1.5rem">
+        <h4 style="font-weight:700;margin-bottom:.5rem">Is Grab/MetroMart integration live?</h4>
+        <p style="color:var(--text2);font-size:.9rem">Coming Q3 2026 — Premium subscribers get early access. Add entire recipe ingredient lists to your cart in one tap.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Cook<span>aroo</span></div>
+        <p>The intelligent global cookbook. From Filipino kitchens to French bistros — every recipe, every technique, every culture.</p>
+        <div class="footer-download">
+          <button class="app-btn">
+            <span class="app-btn-icon">🍎</span>
+            <div>
+              <span class="app-btn-sub">Download on the</span>
+              <strong>App Store</strong>
+            </div>
+          </button>
+          <button class="app-btn">
+            <span class="app-btn-icon">🤖</span>
+            <div>
+              <span class="app-btn-sub">Get it on</span>
+              <strong>Google Play</strong>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#" class="nav-link" data-page="recipes">All Recipes</a>
+        <a href="#" class="nav-link" data-page="recipes">International</a>
+        <a href="#" class="nav-link" data-page="recipes">Quick & Easy</a>
+        <a href="#" class="nav-link" data-page="recipes">Vegan & Plant-Based</a>
+        <a href="#" class="nav-link" data-page="pantry">Pantry Matcher</a>
+      </div>
+      <div class="footer-col">
+        <h4>Learn</h4>
+        <a href="#" class="nav-link" data-page="masterclasses">Masterclasses</a>
+        <a href="#" class="nav-link" data-page="masterclasses">Knife Skills</a>
+        <a href="#" class="nav-link" data-page="masterclasses">Baking 101</a>
+        <a href="#" class="nav-link" data-page="masterclasses">World Cuisines</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Blog</a>
+        <a href="#" class="nav-link" data-page="pricing">Pricing</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <hr class="divider" style="margin-bottom:2rem">
+    <div class="footer-bottom">
+      <span>© 2026 Cookaroo. All rights reserved. Built with 🧡 for home cooks everywhere.</span>
+      <div class="social-links">
+        <a href="#" title="Twitter/X">𝕏</a>
+        <a href="#" title="LinkedIn">in</a>
+        <a href="#" title="Instagram">📷</a>
+        <a href="#" title="YouTube">▶</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
